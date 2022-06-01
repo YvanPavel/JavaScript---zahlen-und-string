@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Aufgabe 1 GGT/KGV</title>
+    <script src="Scripts/JavaScript1.js"></script>
+</head>
+<body>
+    <h3>GGT oder KGV berechnen</h3>
+    <table>
+        <tr>
+            <td>
+                <label for="zahl1">Zahl 1: </label>
+            </td>
+            <td>
+                <input type="number" id="zahl1" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="zahl2">Zahl 2: </label>
+            </td>
+            <td>
+                <input type="number" id="zahl2" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" name="ggt_kgv" value="ggt" checked="checked" id="radioButtonGGT" />
+                <label for="radioButtonGGT">GGT</label>
+
+                <input type="radio" name="ggt_kgv" value="kgv" id="radioButtonKGV" />
+                <label for="radioButtonKGV">KGV</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" id="berechnen" value="Berechnen" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="zahl1">Ergebnis: </label>
+            </td>
+            <td>
+                <input type="text" id="ergebnis" disabled="disabled" />
+            </td>
+        </tr>
+    </table>
+    <a href="Index.html">Index</a>
+</body>
+</html>
